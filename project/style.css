@@ -1,4 +1,22 @@
-:root {
+:root{
+  --pink: #E6AACE;
+  --green: #C5DAC1;
+  --primary: var(--green);
+}
+
+body{
+  background-color: var(--primary);
+}
+
+.hot{
+  --primary: var(--pink);
+}
+
+.calm{
+  --primary: var(--green);
+}
+
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -94,4 +112,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
