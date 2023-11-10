@@ -1,7 +1,7 @@
 :root{
   --pink: #E6AACE;
   --green: #C5DAC1;
-  --primary: var(--green);
+  --primary: var(--pink);
 }
 
 body{
@@ -15,6 +15,7 @@ body{
 .calm{
   --primary: var(--green);
 }
+
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
