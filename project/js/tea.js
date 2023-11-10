@@ -12,7 +12,7 @@ const tea =[
         nickname: "AKA pami",
         age: 15,
         img: "",
-        desc: "spotted in staircase I.. ",
+        desc: "spotted in staircase I... nothing more needs to be said. She better watch out next time.  ",
         CANCELLED: true,
     },
     {
