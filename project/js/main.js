@@ -1,20 +1,19 @@
 import "../css/style.css";
+import "../css/lalala.css";
 import { tea } from "./tea";
 
-function cardss (te){
 
-
-    forEach
-    
-("#app").insertHTML =  `
-<h1 class="header">Read the hottest tea about SI Tech..</h1>
-<h2 class="subheader">hey guys, I'm back. and I have some juicy gossip</h2>
+function cardss1 (){
+let app = document.querySelector("#app");
+tea.forEach((ta) => app.insertAdjacentHTML ( 
+    "beforeend",
+    `
 <div id="cards">
-    <h2 class="name">${tea.person}</h2>
-    <img src= "" class="pic">
-    <h3 class="oop"></h3>
+    <h2 class="name">${ta.person}</h2>
+    <img src= "${ta.img}" class="pic">
+    <h3 class="oop">${ta.desc}</h3>
 </div>
-`};
-
+`))};
+cardss1();
 console.log(tea);
 
