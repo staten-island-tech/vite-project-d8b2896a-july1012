@@ -17,3 +17,11 @@ tea.forEach((ta) => app.insertAdjacentHTML (
 cardss1();
 console.log(tea);
 
+const DOMSelectors ={
+    app: document.querySelector("#app")
+}
+
+DOMSelectors.app.addEventListener("click", function (event){
+    event.preventDefault();
+    
+})
