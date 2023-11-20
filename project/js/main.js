@@ -8,7 +8,7 @@ let app = document.querySelector("#app");
 tea.forEach((ta) => app.insertAdjacentHTML ( 
     "beforeend",
     `
-<div id="cards">
+<div class="cards">
     <h2 class="name">${ta.person}</h2>
     <img src= "${ta.img}" class="pic">
     <h3 class="oop">${ta.desc}</h3>
