@@ -20,13 +20,41 @@ body,
     flex: wrap;
     justify-content: space-evenly;
   }
-
-.pic{
-    width: 75%;
+  .cards{
+    width: 30rem;
     height: auto;
+    margin:8px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+  }
+  
+.pic{
+    width: 50%;
+    height: 60%;
     align-items: center;
     display:flex;
     justify-content: space-evenly;
     margin: auto;
+}
+
+.name{
+  text-align: center;
+    margin: 2rem;
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.oop{
+  text-align: center;
+    margin: 2rem;
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
 

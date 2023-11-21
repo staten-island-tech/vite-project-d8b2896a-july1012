@@ -1,11 +1,11 @@
 :root{
   --pink: #E6AACE;
   --green: #C5DAC1;
+  --primary: var(--pink)
 
 }
 
 body{
-  
   background-color: var(--primary);
   margin: 0;
   display: flex;
@@ -16,6 +16,7 @@ body{
 
 .hot{
   --primary: var(--pink);
+  
 }
 
 .calm{
@@ -27,19 +28,56 @@ body{
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.cards{
-
-  width: 20rem;
-  height: auto;
-  margin:8px;
-  padding: 10px;
-  border: 5px solid black;
-  display: flex;
+  
  
-  justify-content:space-evenly;
 }
+
+.cancel{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.cancel:hover {
+  border-color: purple;
+}
+
+.Greenbutton{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.Greenbutton:hover {
+  transform: translateY(-12px);
+  background-color: var(--green);
+}
+.Pinkbutton{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.Pinkbutton:hover {
+  transform: translateY(-12px);
+  background-color: var(--pink) ;
+}
+
+
 
 
 

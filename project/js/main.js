@@ -23,6 +23,11 @@ const DOMSelectors = {
   app: document.querySelector("#app"),
 };
 
-DOMSelectors.app.addEventListener("click", function (event) {
+document.querySelectorAll(".Greenbutton").forEach((btn) =>
+btn.addEventListener("click", function (event) {
   event.preventDefault();
-});
+  
+
+}))
+
+
