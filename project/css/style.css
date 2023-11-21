@@ -5,6 +5,7 @@
 }
 
 body{
+  
   background-color: var(--primary);
   margin: 0;
   display: flex;
@@ -26,6 +27,18 @@ body{
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.cards{
+
+  width: 20rem;
+  height: auto;
+  margin:8px;
+  padding: 10px;
+  border: 5px solid black;
+  display: flex;
+ 
+  justify-content:space-evenly;
 }
 
 
