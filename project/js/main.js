@@ -2,6 +2,16 @@ import "../css/style.css";
 
 import { tea } from "./tea";
 
+const DOMSelectors={
+  app: document.querySelector("#app"),
+  btn: document.querySelector(".btn"),
+  header: document.querySelector(".header"),
+  subheader:document.querySelector(".subheader"),
+  all: document.querySelector(".all"),
+  cancel: document.querySelector(".cancel"),
+  nocancel: document.querySelector(".nocancel"),
+}
+
 function cardss1() {
   let app = document.querySelector("#app");
   tea.forEach((ta) =>
@@ -17,10 +27,10 @@ function cardss1() {
   );
 }
 cardss1();
-console.log(tea);
+
 
 document.querySelector(".btn").addEventListener("click", function () {
-  if (document.body.classList.contains("pinkk")) {
+  if (document.body.classList.contains("greenn")) {
     document.body.classList.add("pinkk");
     document.body.classList.remove("greenn");
   } else {
@@ -29,7 +39,16 @@ document.querySelector(".btn").addEventListener("click", function () {
   }
 });
 
-document.querySelector("cancel").addEventListener("click", function () {
-  tea.filter((te) => te.CANCELLED === true);
-  return tea;
-});
+
+function clearfields(){
+  DOMSelectors.cards.innerHTML = "";
+}
+
+DOMSelectors.app.addEventListener("click", function(){
+  clearfields();
+})
+
+DOMSelectors.cancel.addEventListener("click", fucntion(){
+  const canceltea = tea.filter((te)=> canceltea.CANCELLED===(true));
+  
+})
