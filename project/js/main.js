@@ -28,3 +28,8 @@ document.querySelector(".btn").addEventListener("click", function () {
     document.body.classList.remove("pinkk");
   }
 });
+
+document.querySelector("cancel").addEventListener("click", function () {
+  tea.filter((te) => te.CANCELLED === true);
+  return tea;
+});

@@ -28,8 +28,8 @@ body,
   --darkgreen:#4C6663; 
 
    
-  /* --primary: var(--pink);
-  --secondary: var(--darkpink);  */
+  --primary: var(--pink);
+  --secondary: var(--darkpink);  
 }
 
 body{
