@@ -24,10 +24,6 @@ document.querySelector(".btn").addEventListener("click", function () {
   }
 });
 
-function clearfields() {
-  DOMSelectors.cardsholder.innerHTML = "";
-}
-
 function hool(ta) {
   DOMSelectors.cardsholder.insertAdjacentHTML(
     "beforeend",
@@ -40,14 +36,15 @@ function hool(ta) {
   );
 }
 
+function clearfields() {
+  DOMSelectors.cardsholder.innerHTML = "";
+}
 DOMSelectors.all.addEventListener("click", function () {
   clearfields();
   tea.forEach((ta) => {
     hool(ta);
   });
 });
-
-
 
 DOMSelectors.cancel.addEventListener("click", function () {
   const canceltea = tea.filter((hot) => hot.CANCELLED === true);
