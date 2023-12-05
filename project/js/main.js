@@ -47,6 +47,8 @@ DOMSelectors.all.addEventListener("click", function () {
   });
 });
 
+
+
 DOMSelectors.cancel.addEventListener("click", function () {
   const canceltea = tea.filter((hot) => hot.CANCELLED === true);
   clearfields();
