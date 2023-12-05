@@ -78,6 +78,8 @@ body{
   flex-wrap: wrap;
   flex-direction: row; 
   width: 100vw;
+  margin:-17rem;
+  padding:18rem;
   
 }
 .cards{
@@ -85,6 +87,7 @@ body{
   width:15rem;
   height: auto;
   margin:2rem;
+  
   border: 2px solid var(--secondary);
   border-radius: 20px;
   display: flex;
