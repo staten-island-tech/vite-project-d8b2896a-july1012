@@ -14,21 +14,6 @@ const DOMSelectors = {
   cardsholder: document.querySelector("#cards-holder"),
 };
 
-// function cardss1() {
-
-//   tea.forEach((ta) =>
-//     app.insertAdjacentHTML(
-//       "beforeend",
-//       `   <div class="cards">
-//     <h3 class="name">${ta.person}</h3>
-//     <img src= "${ta.img}" class="pic">
-//     <h5 class="oop">${ta.desc}</h5>
-// </div>
-// `
-//     )
-//   );
-// }
-
 document.querySelector(".btn").addEventListener("click", function () {
   if (document.body.classList.contains("greenn")) {
     document.body.classList.add("pinkk");
@@ -42,6 +27,7 @@ document.querySelector(".btn").addEventListener("click", function () {
 function clearfields() {
   DOMSelectors.cardsholder.innerHTML = "";
 }
+
 function hool(ta) {
   DOMSelectors.cardsholder.insertAdjacentHTML(
     "beforeend",
